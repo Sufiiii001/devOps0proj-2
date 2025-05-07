@@ -22,7 +22,7 @@ pipeline{
         stage("build dockerfile"){
             steps{
                 script{
-                    docker.build('docker build -t sufi001/latest')
+                    docker.build('sufi001/latest')
                 }
             }
         }
