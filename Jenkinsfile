@@ -78,7 +78,7 @@ pipeline{
         }
         stage("Clone github reppo"){
             steps{
-                git 'https://github.com/Mahesh8887/devops_real_time_project_1.git'
+                git 'https://github.com/Sufiiii001/devOps0proj-2.git'
             }
         }
 
