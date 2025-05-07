@@ -30,7 +30,7 @@ pipeline{
         stage("publish on docker hub"){
             steps{
                 script{
-                docker.withDockerRegistry('' , dockerhub){
+                docker.withDockerRegistry('' , 'dockerhub'){
                     docker.image('docker push sufi001/latest').push
                 }
                 }
