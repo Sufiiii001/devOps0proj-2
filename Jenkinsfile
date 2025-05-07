@@ -31,7 +31,7 @@ pipeline{
             steps{
                 script{
                 docker.withDockerRegistry('' , 'dockerhub'){
-                    docker.image('docker push sufi001/latest').push
+                    docker.image('docker push sufi001/latest').push()
                 }
                 }
 
