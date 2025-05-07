@@ -76,7 +76,7 @@ pipeline{
                 cleanWs()
             }
         }
-        stage("Clone github repo"){
+        stage("Clone github reppo"){
             steps{
                 git 'https://github.com/Mahesh8887/devops_real_time_project_1.git'
             }
